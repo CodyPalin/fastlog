@@ -1,6 +1,6 @@
 CC = gcc
-CFLAGS2 = -Wall -Wextra -Wpointer-arith -Wstrict-prototypes -std=gnu99 -g -fPIC -L.
-CFLAGS = -Wall -std=gnu99
+CFLAGS = -Wall -Wextra -Wpointer-arith -Wstrict-prototypes -std=gnu99 -g -fPIC -L.
+CFLAGS2 = -Wall -std=gnu99
 LDFLAGS = -shared
 
 all: libfastlog mytests
